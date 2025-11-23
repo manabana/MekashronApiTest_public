@@ -1,0 +1,14 @@
+.login-wrapper {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .login-wrapper {
+        width: 100%;
+    }
+}

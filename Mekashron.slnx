@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Mekashron.Domain/Mekashron.Domain.csproj" />
+  <Project Path="Mekashron.Frontend/Mekashron.Frontend.csproj" />
+  <Project Path="Mekashron.Repository/Mekashron.Repository.csproj" />
+  <Project Path="Mekashron.Services/Mekashron.Services.csproj" />
+  <Project Path="Mekashron.Tools/Mekashron.Tools.csproj" Id="507e3e5b-f675-4729-ba76-7a8f589e5939" />
+</Solution>

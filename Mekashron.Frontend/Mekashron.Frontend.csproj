@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientApp\" />
+    <Folder Include="wwwroot\dist\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mekashron.Domain\Mekashron.Domain.csproj" />
+    <ProjectReference Include="..\Mekashron.Repository\Mekashron.Repository.csproj" />
+    <ProjectReference Include="..\Mekashron.Services\Mekashron.Services.csproj" />
+    <ProjectReference Include="..\Mekashron.Tools\Mekashron.Tools.csproj" />
+  </ItemGroup>
+
+</Project>

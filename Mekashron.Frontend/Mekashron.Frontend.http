@@ -1,0 +1,6 @@
+@Mekashron.Frontend_HostAddress = http://localhost:5002
+
+GET {{Mekashron.Frontend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
